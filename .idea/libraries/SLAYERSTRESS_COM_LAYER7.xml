@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="SLAYERSTRESS.COM LAYER7">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/L7/SLAYERSTRESS.COM LAYER7/http-browserv2.zip!/" />
+      <root url="jar://$PROJECT_DIR$/L7/SLAYERSTRESS.COM LAYER7/wsflood.zip!/" />
+      <root url="jar://$PROJECT_DIR$/L7/SLAYERSTRESS.COM LAYER7/uam-method.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
