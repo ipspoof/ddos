@@ -78,19 +78,74 @@ This project includes various network security tools and resources, including so
 
 ---
 
-## 📦 Installation & Usage / 安装与使用
+ Installation & Usage / 安装与使用
+Requirements / 环境要求
+Before starting, make sure your environment meets the following requirements:
 
-### Requirements / 环境要求
-- Python 3.8 and above / Python 3.8 及以上
-- MySQL / SQLite
-- Redis
-- Required network connection / 必要的网络连接
+在开始之前，请确保您的环境满足以下要求：
 
-### Quick Start / 快速开始
-1. Clone the project / 克隆项目：
-   ```bash
-   git clone https://github.com/your_username/your_project_name.git
-   cd your_project_name
-@ddosvps
+Python 3.8 and above / Python 3.8 及以上版本
+Ensure that you have Python 3.8 or higher installed. You can check your Python version by running: 确保你已经安装了 Python 3.8 或更高版本。可以通过运行以下命令检查 Python 版本：
+
+bash
+复制代码
+python --version
+MySQL / SQLite
+MySQL 或 SQLite 数据库。如果使用 MySQL，请确保已经安装并且配置了数据库实例。如果使用 SQLite，则无需进行额外配置。
+
+Redis
+Redis 数据库。如果没有安装 Redis，可以参考Redis 官方文档进行安装。
+
+Required network connection / 必要的网络连接
+Please make sure your network connection is stable, as the tool may need to access external services for some features.
+请确保你的网络连接稳定，因为该工具可能需要访问外部服务来实现某些功能。
+
+Quick Start / 快速开始
+Follow these steps to quickly set up and start using the project:
+
+按照以下步骤快速设置并开始使用该项目：
+
+Clone the project / 克隆项目
+Clone this repository to your local machine using Git: 使用 Git 克隆该项目到本地机器：
+
+bash
+复制代码
+git clone https://github.com/ipspoof/ddos.git
+Navigate into the project directory / 进入项目目录
+Once the repository is cloned, move into the project directory: 克隆完成后，进入项目目录：
+
+bash
+复制代码
+cd ddos
+Install the required dependencies / 安装所需的依赖
+Run the following command to install the required Python dependencies: 运行以下命令来安装所需的 Python 依赖：
+
+bash
+复制代码
+pip install -r requirements.txt
+Configure the database / 配置数据库
+Set up your MySQL or SQLite database as required.
+根据需要设置 MySQL 或 SQLite 数据库。
+
+For MySQL, create a new database and update the connection settings in the configuration file. 对于 MySQL，创建一个新的数据库并在配置文件中更新连接设置。
+
+Start the application / 启动应用程序
+To start the application, simply run: 启动应用程序，只需运行以下命令：
+
+bash
+复制代码
+python main.py
+This will launch the DDoS attack script or related functionality based on the configuration you've set up. 这将根据您设置的配置启动 DDoS 攻击脚本或相关功能。
+
+Additional Configuration / 其他配置
+If you want to customize the attack methods, database settings, or network configurations, you can edit the configuration files in the /config directory.
+如果你想自定义攻击方法、数据库设置或网络配置，可以编辑 /config 目录中的配置文件。
+
+Resources for Support / 支持资源
+If you need further assistance or have any questions, feel free to reach out via Telegram at @qVmfbI.
+如果你需要进一步的帮助或有任何问题，欢迎通过电报联系 @qVmfbI。
+
+For more information, check out the official documentation and FAQs.
+欲了解更多信息，请查看官方文档和常见问题解答。
 
    
